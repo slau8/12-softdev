@@ -1,0 +1,39 @@
+base:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+</html>
+
+.container (fixed width)
+.container-fluid (full width)
+
+Grid system with up to 12 columns 
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+</div> 
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">.col-sm-8</div>
+</div> 
+
+The small element is used to create a lighter, secondary text in any heading
+<h1>h1 heading <small>secondary text</small></h1>
+
+<mark> to highlight text
+<code> to mark code
+<blockquote> or <blockquote class="blockquote-reverse"> for blockquotes
+
+classes for styling typography
+text-left/right/center/justify
+
+.table for basic styling
+.table-striped for zebra-stripes
+.table-bordered
+.table-hover
