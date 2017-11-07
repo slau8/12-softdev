@@ -23,7 +23,6 @@ _________DISPLAY_________
 .img-circle
 .img-thumbnail
 
-.jumbotron for big header enclosed in a box
 
 .page-header class adds a horizontal line under the heading (+ adds some extra space around the element)
 
