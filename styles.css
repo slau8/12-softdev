@@ -1,0 +1,22 @@
+.jumbotron {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 8%;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#text {
+  padding-top: 1px;
+}
+
+h4 {
+  font-style: italic;
+}
+
+.footer {
+  padding: 2%;
+}
