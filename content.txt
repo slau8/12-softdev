@@ -1,40 +1,19 @@
-base:
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-  </body>
-</html>
-
+_________LAYOUT_________
 .container (fixed width)
 .container-fluid (full width)
 
-Grid system with up to 12 columns 
+Grid system with up to 12 columns
 <div class="row">
   <div class="col-sm-4">.col-sm-4</div>
   <div class="col-sm-4">.col-sm-4</div>
   <div class="col-sm-4">.col-sm-4</div>
-</div> 
+</div>
 <div class="row">
   <div class="col-sm-4">.col-sm-4</div>
   <div class="col-sm-8">.col-sm-8</div>
-</div> 
+</div>
 
-The small element is used to create a lighter, secondary text in any heading
-<h1>h1 heading <small>secondary text</small></h1>
-
-<mark> to highlight text
-<code> to mark code, <pre><code> for codeblock
-<blockquote> or <blockquote class="blockquote-reverse"> for blockquotes
-
-classes for styling typography
-text-left/right/center/justify
-
+_________DISPLAY_________
 .table for basic styling
 .table-striped for zebra-stripes
 .table-bordered
@@ -47,16 +26,6 @@ text-left/right/center/justify
 .jumbotron for big header enclosed in a box
 
 .page-header class adds a horizontal line under the heading (+ adds some extra space around the element)
-
-.well class adds a rounded border around an element with a gray background color and some padding
-add well-sm/md/lg to increase upper and lower padding (default md)
-
-.alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger
-<div class="alert alert-success">
-  <strong>Success!</strong> Indicates a successful or positive action.
-</div>
-close alert message with .alert-dismissable class to the alert container. Then add class="close" and data-dismiss="alert" to a link or a button element (when you click on this the alert box will disappear).
-<div class="alert alert-danger fade in"> for animation ;o
 
 
     .btn
@@ -87,16 +56,6 @@ To span the entire width of the screen, use the .btn-group-justified class
   <a href="#" class="btn btn-primary">Sony</a>
 </div>
 
-Use the .badge class within <span> elements to create badges
-<button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
-.label for labels <h1>Example <span class="label label-default">New</span></h1>
-
-panels
-<div class="panel panel-default">
-      <div class="panel-heading">Panel with panel-default class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
-
 navbar
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -112,20 +71,30 @@ navbar
   </div>
 </nav>
 navbar-fixed-top class makes navbar fixed lol
+_________ELEMENTS_________
+.well class adds a rounded border around an element with a gray background color and some padding
+add well-sm/md/lg to increase upper and lower padding (default md)
 
-forms
+.alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger
+<div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+close alert message with .alert-dismissable class to the alert container. Then add class="close" and data-dismiss="alert" to a link or a button element (when you click on this the alert box will disappear).
+<div class="alert alert-danger fade in"> for animation ;o
+
+panels
+<div class="panel panel-default">
+      <div class="panel-heading">Panel with panel-default class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+
+
+__________FORMS__________
 Wrap labels and form controls in <div class="form-group"> (needed for optimum spacing)
 Add class .form-control to all textual <input>, <textarea>, and <select> elements
 default is vertical
 for inline:
 .form-inline to the <form> element
-for horizontal: 
+for horizontal:
     Add class .form-horizontal to the <form> element
     Add class .control-label to all <label> elements
-
-list groups
- <div class="list-group">
-  <a href="#" class="list-group-item">First item</a>
-  <a href="#" class="list-group-item">Second item</a>
-  <a href="#" class="list-group-item">Third item</a>
-</div> 
