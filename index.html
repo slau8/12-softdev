@@ -19,8 +19,8 @@
             <li><a href="#text">Text</a></li>
 	          <li><a href="#layout">Layout</a></li>
             <li><a href="#display">Display</a></li>
-	          <li><a href="#elements">Elements</a></li>
-	          <li><a href="#forms">Forms</a></li>
+	          <!--<li><a href="#elements">Elements</a></li>
+	          <li><a href="#forms">Forms</a></li>-->
 	       </ul>
       </div>
     </nav>
@@ -146,21 +146,61 @@
         </div></xmp></pre>
         These classes are used within <code>&lt;div&gt;</code> tags.<br><br>
       <h4>Grids</h4>
+      <p>
+        Bootstrap utilizes a 12-column system to organize HTML.
+        Within <code>&lt;div class="row"&gt;</code>, there can be as many as 12 columns whose widths sum to 12.
+        The class for each of these columns is <code>col-lg-*</code> where * represents the width of the column.
+        <code>lg</code> references the size for laptop/desktop screens at least 1200px wide.
+      </p>
+      <div class="row">
+        <div class="col-lg-5">
+          <pre><xmp>        <div class="row">
+          <div class="col-lg-6">.col-lg-6</div>
+          <div class="col-lg-6">.col-lg-6</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">.col-lg-4</div>
+          <div class="col-lg-8">.col-lg-8</div>
+        </div></xmp></pre>
+        </div>
+        <div class="col-lg-7">
+          <div class="well">
+            <div class="row">
+              <div class="col-lg-6" style="background-color:lavender;">.col-lg-6</div>
+              <div class="col-lg-6" style="background-color:lavenderblush;">.col-lg-6</div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-4" style="background-color:lavender;">.col-lg-4</div>
+              <div class="col-lg-8" style="background-color:lavenderblush;">.col-lg-8</div>
+            </div>
+          </div><br>
+          <p>
+            <b>Note: </b>Any configuration of columns, whether there be one, six or twelve columns, can be used as long as the total width equals 12.
+          </p>
+        </div>
+      </div>
       <div id="display"></div>
       <hr>
       <div class="page-header">
-        <h2>Display</h2>
+        <h2>Display&nbsp;&nbsp;<small>tables, page-headers, buttons, navbars</small></h2>
       </div>
-      <div id="elements"></div>
+
+
+      <!--<div id="elements"></div>
       <hr>
       <div class="page-header">
-        <h2>Elements</h2>
+        <h2>Elements&nbsp;&nbsp;<small>wells, alerts, panels</small></h2>
       </div>
+
+
       <div id="forms"></div>
       <hr>
       <div class="page-header">
-        <h2>Forms</h2>
-      </div>
+        <h2>Forms&nbsp;&nbsp;<small>vertical, inline, horizontal</small></h2>
+      </div>-->
+
+
       <div class="footer text-center muted">
         Copyright &copy; 2017 Shannon Lau and Charles Weng
       </div>
