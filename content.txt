@@ -19,6 +19,11 @@ _________DISPLAY_________
 .table-bordered
 .table-hover
 
+.img-rounded for rounded corners
+.img-circle
+.img-thumbnail
+
+
 .page-header class adds a horizontal line under the heading (+ adds some extra space around the element)
 
 
