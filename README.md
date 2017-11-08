@@ -1,5 +1,11 @@
-# 12-softdev
+# Learn Bootstrap
 
-Open index.html in a browser to learn some Bootstrap basics.
+## Run the Program
+Clone the repo:
+```
+https://github.com/slau8/12-softdev.git
+```
 
-Open context.txt for quick snippets.
+Open `index.html` in a browser to learn some Bootstrap basics.
+
+Open `context.txt` for quick snippets.
