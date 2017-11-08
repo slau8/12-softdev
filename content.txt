@@ -1,3 +1,5 @@
+This is a file for the HTML sniplets we used.
+
 _________LAYOUT_________
 .container (fixed width)
 .container-fluid (full width)
@@ -27,22 +29,22 @@ _________DISPLAY_________
 .page-header class adds a horizontal line under the heading (+ adds some extra space around the element)
 
 
-    .btn
-    .btn-default
-    .btn-primary
-    .btn-success
-    .btn-info
-    .btn-warning
-    .btn-danger
-    .btn-link
+  .btn
+  .btn-default
+  .btn-primary
+  .btn-success
+  .btn-info
+  .btn-warning
+  .btn-danger
+  .btn-link
 
 each can be applied on <a> <button> or <input>
 
 
-    .btn-lg
-    .btn-md
-    .btn-sm
-    .btn-xs
+  .btn-lg
+  .btn-md
+  .btn-sm
+  .btn-xs
 
 Add class .btn-block to create a block level button for full width of container
 The class .active makes a button appear pressed, and the class .disabled makes a button unclickable
