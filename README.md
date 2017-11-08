@@ -1,6 +1,6 @@
 # Learn Bootstrap
 
-## Run the Program
+### Run the Program
 Clone the repo:
 ```
 https://github.com/slau8/12-softdev.git
